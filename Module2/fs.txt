@@ -1,0 +1,7 @@
+Node js 
+
+What is Module?
+        ==> Module is Collection of Js file 
+
+Core Module Explain?
+        ==> All built in Modules are core module
