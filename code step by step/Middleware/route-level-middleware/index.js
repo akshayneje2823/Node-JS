@@ -20,7 +20,7 @@ app.get('/login',(req,resp)=>{
 
 
 router.get('/user',(req,resp)=>{
-    resp.send("kamach Bgha re sudhara re jara")
+    resp.send("<h1>kamach Bgha re sudhara re jara</h1>")
 })
 app.use(reqFilter)
 app.use(router)
