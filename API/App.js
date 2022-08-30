@@ -4,7 +4,15 @@ const app = express();
 app.get('/',(req,res)=>{
     res.send("<h1>Hello Anna</h1>")
 })
-app.use('/user')
+
+// getting Roues 
+
+app.use('/user',require('./router/userRouter'))
+app.use('/product',require('./router/productsRoot'))
+
+
+
+
 // app.get('/user/login',(req,res)=>{
 //     res.send("<h1>User Login</h1>")
 // })
